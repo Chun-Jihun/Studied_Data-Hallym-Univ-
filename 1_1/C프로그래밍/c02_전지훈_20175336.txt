@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+     printf("char형의 크기는 : %d바이트\n", sizeof(char));
+     printf("short형의 크기는 : %d바이트\n", sizeof(short));
+     printf("int형의 크기는 : %d바이트\n", sizeof(int));
+     printf("float형의 크기는 : %d바이트\n", sizeof(float));
+     printf("double형의 크기는 : %d바이트\n", sizeof(double));
+
+    return 0;
+}
